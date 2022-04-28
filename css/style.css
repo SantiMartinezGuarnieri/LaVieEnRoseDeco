@@ -10,15 +10,26 @@ background-color: bisque;
 .carousel-inner{
     height: 40rem;
 }
+body{
+    background-image: url(../imagenes/imagencemento.jpg);
+}
+.text-center{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 footer{
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    
-    background-color: rgba(252,190,191,255);
-    margin-top: 50px;
+    background-color: bisque;
+    margin-top: 40px;
 }
 
 .derechosreservados{
