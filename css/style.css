@@ -1,0 +1,60 @@
+header{
+    background-color: rgba(199, 91, 91, 0.481);
+}
+.container-fluid{
+background-color: bisque;
+}
+.nav-link{
+    font-size: 16px;
+}
+.carousel-inner{
+    height: 40rem;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+    background-color: rgba(252,190,191,255);
+    margin-top: 50px;
+}
+
+.derechosreservados{
+    display: grid;
+    justify-items: baseline;
+    align-items: baseline;
+}
+.iconos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.iconofacebook{
+    display: grid;
+    width: 1px;
+    height: 10px;
+    grid-area: x 2/3;
+}
+.logolavie{
+    width: 200px;
+    height: 200px;
+}
+.divlavie{
+    display: grid;
+    justify-content: center;
+}
+/* contacto*/
+.iframesGRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
