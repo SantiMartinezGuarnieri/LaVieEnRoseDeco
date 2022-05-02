@@ -1,6 +1,7 @@
 header{
-    background-color: rgba(199, 91, 91, 0.481);
+    background-color: rosybrown;
 }
+
 .container-fluid{
 background-color: bisque;
 }
@@ -12,7 +13,23 @@ background-color: bisque;
 }
 body{
     background-image: url(../imagenes/imagencemento.jpg);
+    
 }
+.gridcarrouselytexto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.carrousel{
+    
+    grid-area: 1/2;
+}
+.parrafoasesoramiento{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
 .text-center{
     font-family: 'Pacifico', cursive;
     display: flex;
@@ -20,45 +37,70 @@ body{
     align-items: center;
     
 }
+.decoratuvida{
+    color: antiquewhite;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.fs-1{
+    color: antiquewhite;
 
-
+ }
+ .fs-2{
+     color: beige
+ }
 footer{
     background-image: url(../imagenes/93728.jpg);
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
     background-color: bisque;
     margin-top: 40px;
 }
-
-.derechosreservados{
+.pagosfooter{
     display: grid;
-    justify-items: baseline;
-    align-items: baseline;
+    grid-area: x 2/3 y 1/2;
 }
+.enviamos{
+    font-size: medium;
+}
+.paga{
+    font-size: medium;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        width: 100px;
+        height: 100px;
+    }
 .iconos{
+    padding-left: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center
+
 }
-.logo{
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
     width: 100px;
     height: 100px;
 }
 .iconofacebook{
     display: grid;
-    width: 1px;
-    height: 10px;
-    grid-area: x 2/3;
-}
-.logolavie{
-    width: 200px;
-    height: 200px;
-}
-.divlavie{
-    display: grid;
-    justify-content: center;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+
 }
 /* contacto*/
 .iframesGRID{
@@ -68,4 +110,16 @@ footer{
     margin-bottom: 100px;
     margin-top: 100px;
 
+}
+.títulocatalogo{
+    color: antiquewhite;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.titulocontacto{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
