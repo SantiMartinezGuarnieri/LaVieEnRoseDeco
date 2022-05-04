@@ -223,11 +223,7 @@ footer{
         justify-content: flex-start;
         margin-left: -10px;
     }
-    
-
-    
-
-    .carousel-inner {
+    .carousel-inner{
         height: 14rem;
     }
     .container{
@@ -246,14 +242,14 @@ footer{
         flex-direction: column;
         margin-left: -20px;
     }
-.pagosfooter{
+    .pagosfooter{
     
         display: flex;
         flex-direction: column;
         justify-content: start;
         margin-left: 0%;
 }
-.iconos{
+    .iconos{
         display: flex;
         flex-direction: row;
         justify-content: start;
