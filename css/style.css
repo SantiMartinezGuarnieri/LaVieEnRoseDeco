@@ -31,11 +31,19 @@ body{
 }
 
 .text-center{
+    padding-top: 40px;
     font-family: 'Pacifico', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.titulocontacto{
+    padding-top: 40px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .decoratuvida{
     color: antiquewhite;
@@ -122,4 +130,140 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.subtitulocorreo{
+    color: antiquewhite;
+}
+.subtituloconsultanos{
+    color: antiquewhite;
+}
+
+/*BOX-DECO*/
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.almohadones{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.imagenmate{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+.imagencafebox{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+.boxalmohadones{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 0px;
+    margin-left: -100px;
+    
+}
+.matebox{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    justify-items: center;
+    align-items: flex-start;
+}
+.cafebox{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    align-items: flex-start;
+    justify-items: center;
+    margin-left: -100px;
+    
+}
+.matesoftpink{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    
+}
+.organizador{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+.relaxbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 667px) {
+    header{
+        width: 100%;
+    }
+    .flex__container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .gridcarrouselytexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: -10px;
+    }
+    
+
+    
+
+    .carousel-inner {
+        height: 14rem;
+    }
+    .container{
+        margin-left: 0.5rem;
+    }
+
+    footer{
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .gridbox{
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+.pagosfooter{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 0%;
+}
+.iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -50%;
+}
+.iframesGRID{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
 }
