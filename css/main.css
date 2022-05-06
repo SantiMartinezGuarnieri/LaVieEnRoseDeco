@@ -1,0 +1,10 @@
+header {
+  background-color: rosybrown; }
+  header .container-fluid {
+    background-color: bisque; }
+
+.nav-link {
+  font-size: 16px; }
+
+footer {
+  background-color: bisque; }
