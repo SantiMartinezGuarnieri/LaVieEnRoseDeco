@@ -1,3 +1,51 @@
 footer{
-    background-color: $color-secundario;
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    color: $color-secundario;
+    margin-top: 40px;
+}
+
+.pagosfooter{
+    display: grid;
+    grid-area: x 2/3 y 1/2;
+}
+.enviamos{
+    font-size: medium;
+}
+.paga{
+    font-size: medium;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        width: 100px;
+        height: 100px;
+    }
+.iconos{
+    @include iconos(100px, 100px)
+
+}
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
+    width: 60px;
+    height: 60px;
+}
+.iconofacebook{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+
 }

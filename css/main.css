@@ -1,10 +1,110 @@
-header {
-  background-color: rosybrown; }
-  header .container-fluid {
-    background-color: bisque; }
+/* MAPS */
+/* EXTEND */
+.decoratuvida {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-top: 40px; }
 
-.nav-link {
-  font-size: 16px; }
+/* MIXIN */
+header {
+  background-color: rosybrown;
+  opacity: 90%; }
+  header .image-header-container {
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*extend*/
+    justify-content: center; }
+  header .img-fluid {
+    margin-left: 0px;
+    height: 12vh;
+    width: 15vh;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 50px; }
+  header .titulos {
+    font-size: 25px;
+    font-family: 'Water Brush', cursive;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-items: flex-start;
+    margin-left: 300px;
+    color: rosybrown;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px; }
+  header .navbar {
+    color: antiquewhite; }
 
 footer {
-  background-color: bisque; }
+  background-image: url(../imagenes/93728.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  color: bisque;
+  margin-top: 40px; }
+
+.pagosfooter {
+  display: grid;
+  grid-area: x 2/3 y 1/2; }
+
+.enviamos {
+  font-size: medium; }
+
+.paga {
+  font-size: medium; }
+
+.logoinsta {
+  display: grid;
+  grid-area: x 4/5 y 1/2;
+  width: 100px;
+  height: 100px; }
+
+.logoyoutube {
+  display: grid;
+  grid-area: x 4/5 y 1/2;
+  width: 100px;
+  height: 100px; }
+
+.iconos {
+  padding: 5px, 10px;
+  border: solid 1px;
+  width: 100px;
+  height: 100px; }
+
+.logoface {
+  display: grid;
+  grid-area: x 4/5;
+  width: 60px;
+  height: 60px; }
+
+.iconofacebook {
+  display: grid;
+  grid-area: x 4/5 y 1/2;
+  width: 100px;
+  height: 100px; }
+
+.decoratuvida {
+  color: antiquewhite;
+  font-family: 'Lobster', cursive;
+  font-size: 25px; }
+
+.gridcarrouselytexto {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+.subtituloasesoramiento {
+  color: antiquewhite;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  margin-left: 40px; }
+
+.fs-2 {
+  color: antiquewhite;
+  font-family: 'Prompt', sans-serif;
+  font-size: 14px; }

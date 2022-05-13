@@ -1,0 +1,23 @@
+.decoratuvida{
+    color: $colortitulos;
+    @extend %margenes;
+    font-family: 'Lobster', cursive;
+    font-size: map-get($tamanio-tipografia, titulos);
+}
+.gridcarrouselytexto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.subtituloasesoramiento{
+    color: $colortitulos;
+    font-family: 'Lobster', cursive;
+    font-size: map-get($tamanio-tipografia, titulos);
+    margin-left: 40px;
+}
+
+.fs-2{
+    color: $colortitulos;
+    font-family: 'Prompt', sans-serif;
+    font-size: map-get($tamanio-tipografia, parrafos)
+}

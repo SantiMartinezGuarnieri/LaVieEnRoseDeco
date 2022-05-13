@@ -1,19 +1,77 @@
 .image-header-container{
-    background-color: rgb(212, 152, 152);
-    height: 15vh;
+    background-color: white;
+    height: 20vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.image-header-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    height: 10vh;
 
-.image-header-container .text-center{
-    padding: 0;
-    margin: 0;
+   
+    
 }
+.titulos{
+    font-family: 'Water Brush', cursive;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-items: flex-start;
+    margin-left: 300px;
+    color: rosybrown;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.img-fluid{
+    margin-left: 0px;
+    height: 12vh;
+    width: 15vh;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 50px;
+}
+.navbar {
+    opacity: none;
+    color: antiquewhite;
+}
+
+
 
 header{
     background-color: rosybrown;
+    opacity: 90%;
+
+}
+.estilolink{
+    text-decoration: none;
+    color: gray;
+    font-size: xx-large;
+    padding: 80px;
+    
+
+    
+    
+}
+.estilolink:hover{
+    color: rosybrown;
+    transform: scale(2);
+   
+}
+.titulonavbar{
+    color: rosybrown;
+    font-size: x-large;
+    margin-right: 40px;
+    text-decoration: none;
+   
+}
+.titulonavbar:hover{
+    color: rosybrown;
+    transform: none
 }
 
 .container-fluid{
@@ -38,20 +96,13 @@ body{
     grid-area: 1/2;
 }
 .parrafoasesoramiento{
+    margin-top: 0px;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 0px;
     margin-left: 20px;
 }
 
-.text-center{
-    padding-top: 40px;
-    font-family: 'Pacifico', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 .titulocontacto{
     padding-top: 40px;
     font-family: 'Pacifico', cursive;
@@ -62,15 +113,22 @@ body{
 .decoratuvida{
     color: antiquewhite;
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 70px
 }
-.fs-1{
-    color: antiquewhite;
+.subtituloasesoramiento{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
 
- }
  .fs-2{
-     color: beige
+     color: antiquewhite;;
+     font-family: 'Prompt', sans-serif;
+     font-size: x-large;
  }
 footer{
     background-image: url(../imagenes/93728.jpg);
@@ -133,6 +191,10 @@ footer{
     margin-top: 100px;
 
 }
+.ratio{
+    width: 100vh;
+    height: 60vh;
+}
 .títulocatalogo{
     color: antiquewhite;
     margin-bottom: 40px;
@@ -151,14 +213,17 @@ footer{
 .subtituloconsultanos{
     color: antiquewhite;
 }
-
+.btn{
+    margin-left: 40px;
+    border-color: blanchedalmond;
+}
 /*BOX-DECO*/
 .gridbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-.almohadones{
+.imagenbox{
     margin-top: 20px;
     margin-left: 20px;
     width: 500px;
@@ -184,13 +249,19 @@ footer{
     justify-items: center;
     margin-bottom: 0px;
     margin-left: -100px;
-    
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 .matebox{
     display: grid;
     grid-area:  x 1/2 y 2/3;
     justify-items: center;
     align-items: flex-start;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-right: 20px;
 }
 .cafebox{
     display: grid;
@@ -198,14 +269,19 @@ footer{
     align-items: flex-start;
     justify-items: center;
     margin-left: -100px;
-    
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 .matesoftpink{
     margin-top: 20px;
     margin-left: 20px;
     width: 500px;
     height: 500px;
-    
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-right: 20px;
 }
 .organizador{
 
@@ -213,21 +289,34 @@ footer{
     margin-left: 20px;
     width: 500px;
     height: 500px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 .relaxbox{
     margin-top: 20px;
     margin-left: 20px;
     width: 500px;
     height: 500px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
-
+.subtitulodebox{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
+/*media*/
 @media only screen and (max-width: 667px) {
     header{
-        width: 100%;
+        width: 102%;
+        height: 20vh;
     }
     .flex__container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         
     }
 
@@ -245,7 +334,7 @@ footer{
     }
 
     footer{
-        width: 140%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         
@@ -267,13 +356,62 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: start;
-        margin-left: -50%;
+        margin-left: -30%;
 }
 .iframesGRID{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
 }
-
-
+.videos{
+margin-top: 20px;
+width: 100%;
+height: 100%;
+}
+.ratio{
+    width: 100%;
+}
+.imagenbox{
+width: 90%;
+height: 90%;
+margin-left: 25px;
+}
+.image-header-container{
+ display: flex;
+ flex-direction: column; 
+ height: 20vh;
+ width: 100%;
+}
+.img-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-top: 10px;
+    margin-left: -150px;
+    width: 150px;
+    height: 120px;
+}
+.titulos{
+    display: none !important;
+    
+}
+.decoratuvida{
+    margin-top: 55px;
+    margin-left: 15px;
+}
+.matebox{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.boxalmohadones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.subtitulodebox{
+    display: flex;
+    margin-top: 60px;
+}
 }

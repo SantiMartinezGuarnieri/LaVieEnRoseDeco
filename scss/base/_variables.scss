@@ -1,2 +1,30 @@
 $color-principal: rosybrown;
 $color-secundario: bisque;
+$colortitulos:antiquewhite;
+$colorletraslink: gray; 
+$display: flex;
+
+/* MAPS */
+
+$tamanio-tipografia: (
+    titulos: 25px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    );
+
+/* EXTEND */
+
+%margenes {
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-top: 40px;
+};
+
+/* MIXIN */
+
+@mixin iconos ($height, $width ){
+    padding: 5px, 10px;
+    border: solid 1px;
+    width: $width;
+    height: $height;
+}

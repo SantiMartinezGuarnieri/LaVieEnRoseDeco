@@ -1,10 +1,40 @@
 header{
     background-color: $color-principal;
-    .container-fluid{
-        background-color: $color-secundario;
-        
+    opacity: 90%;
+
+    .image-header-container{
+        background-color: white;
+        height: 20vh;
+        width: 100%;
+        display: $display;
+        align-items: center;   /*extend*/
+        justify-content: center;
     }
-    
-}
-.nav-link{
-    font-size: 16px;}
+        .img-fluid{
+            margin-left: 0px;
+            height: 12vh;
+            width: 15vh;
+            display: grid;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin-left: 50px;
+     }
+            .titulos{
+                font-size: map-get($tamanio-tipografia, titulos);
+                font-family: 'Water Brush', cursive;
+                display: grid;
+                grid-column: 2/3;
+                grid-row: 1/2;
+                justify-items: flex-start;
+                margin-left: 300px;
+                color: $color-principal;
+                opacity: 100%;
+                padding-top: 20px;
+                margin-bottom: 40px;
+    }
+
+                .navbar {
+                    color: $colortitulos;
+                }
+
+ }
