@@ -308,6 +308,30 @@ footer{
     font-size: 50px;
     margin-left: 40px;
 }
+/*quienes somos*/
+.flexquienesomos{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.textoquienessomos{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.imagenquienessomos{
+    margin-left: 40px;
+    margin-top: 60px;
+    border: solid 8px antiquewhite;
+    
+}
+.Decoratusespaciosconnosotros{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
 /*media*/
 @media only screen and (max-width: 667px) {
     header{
