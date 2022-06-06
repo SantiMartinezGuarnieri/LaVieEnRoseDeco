@@ -309,6 +309,15 @@ footer{
     margin-left: 40px;
 }
 /*quienes somos*/
+.flexboxquienesomos{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.iframemaps{
+   margin-top: 80px;
+   margin-left: 140px;
+}
 .flexquienesomos{
     display: flex;
     justify-content: center;
@@ -344,6 +353,7 @@ footer{
         
     }
 
+    
     .gridcarrouselytexto{
         display: flex;
         flex-direction: column;

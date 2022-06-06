@@ -1,0 +1,138 @@
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.imagenbox{
+   @extend %medidasimagenes;
+}
+
+.imagenmate{
+    @extend %medidasimagenes;
+}
+.imagencafebox{
+    @extend %medidasimagenes;
+}
+.boxalmohadones{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 0px;
+    margin-left: -100px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.matebox{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    justify-items: center;
+    align-items: flex-start;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.cafebox{
+    display: grid;
+    grid-area:  x 1/2 y 2/3;
+    align-items: flex-start;
+    justify-items: center;
+    margin-left: -100px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.matesoftpink{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.organizador{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.relaxbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.subtitulodebox{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
+footer{
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 40px;
+}
+.pagosfooter{
+    display: grid;
+    grid-area: x 2/3 y 1/2;
+    color: $colorletraslink;
+}
+.enviamos{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.paga{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.textofooter{
+    color:$colorletraslink ;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        @extend %medidas;
+    }
+.iconos{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
+    @extend %medidas;
+  
+}
+.iconofacebook{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+    
+
+}

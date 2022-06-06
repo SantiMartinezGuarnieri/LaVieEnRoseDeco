@@ -1,0 +1,125 @@
+/*media*/
+@media only screen and (max-width: 667px) {
+    header{
+        width: 102%;
+        height: 20vh;
+    }
+    .flex__container{
+        display: flex;
+        flex-direction: column; 
+        
+    }
+
+    
+    .gridcarrouselytexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: -10px;
+    }
+    .carousel-inner{
+        height: 14rem;
+    }
+    .container{
+        margin-left: 0.5rem;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .gridbox{
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+    .pagosfooter{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 0%;
+}
+    .iconos{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -30%;
+}
+.iframesGRID{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.videos{
+margin-top: 20px;
+width: 100%;
+height: 100%;
+}
+.ratio{
+    width: 100%;
+}
+.imagenbox{
+width: 90%;
+height: 90%;
+margin-left: 25px;
+}
+.image-header-container{
+ display: flex;
+ flex-direction: column; 
+ height: 20vh;
+ width: 100%;
+}
+.img-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-top: 10px;
+    margin-left: -150px;
+    width: 150px;
+    height: 120px;
+}
+.titulos{
+    display: none !important;
+    
+}
+.decoratuvida{
+    margin-top: 55px;
+    margin-left: 15px;
+}
+.matebox{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.boxalmohadones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.subtitulodebox{
+    display: flex;
+    margin-top: 60px;
+}
+
+.flexboxquienesomos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.imagenquienessomos{
+    width: 320px;
+}
+
+.iframemaps{
+    width: 90%;
+    margin-top: 5vh;
+    margin-left: 4vh;
+}
+
+}

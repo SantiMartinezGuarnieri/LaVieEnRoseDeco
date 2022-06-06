@@ -1,0 +1,89 @@
+.flexboxquienesomos{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.iframemaps{
+   margin-top: 80px;
+   margin-left: 140px;
+}
+.flexquienesomos{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.textoquienessomos{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.imagenquienessomos{
+    margin-left: 40px;
+    margin-top: 60px;
+    border: solid 8px antiquewhite;
+    
+}
+.Decoratusespaciosconnosotros{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
+footer{
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 40px;
+}
+.pagosfooter{
+    display: grid;
+    grid-area: x 2/3 y 1/2;
+    color: $colorletraslink;
+}
+.enviamos{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.paga{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.textofooter{
+    color:$colorletraslink ;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        @extend %medidas;
+    }
+.iconos{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
+    @extend %medidas;
+  
+}
+.iconofacebook{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+    
+
+}

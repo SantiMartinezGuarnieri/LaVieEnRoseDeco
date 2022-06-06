@@ -1,0 +1,89 @@
+.iframesGRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+.ratio{
+    width: 100vh;
+    height: 60vh;
+}
+.títulocatalogo{
+    color: antiquewhite;
+    @extend %margenescatalogo;
+}
+
+.titulocontacto{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulocorreo{
+    color: antiquewhite;
+}
+.subtituloconsultanos{
+    color: antiquewhite;
+}
+.btn{
+    margin-left: 40px;
+    border-color: blanchedalmond;
+}
+footer{
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 40px;
+}
+.pagosfooter{
+    display: grid;
+    grid-area: x 2/3 y 1/2;
+    color: $colorletraslink;
+}
+.enviamos{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.paga{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.textofooter{
+    color:$colorletraslink ;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        @extend %medidas;
+    }
+.iconos{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
+    @extend %medidas;
+  
+}
+.iconofacebook{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    @extend %medidas;
+
+}

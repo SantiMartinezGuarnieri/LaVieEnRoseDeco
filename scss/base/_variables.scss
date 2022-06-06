@@ -20,6 +20,24 @@ $tamanio-tipografia: (
     margin-top: 40px;
 };
 
+%margenescatalogo {
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+%medidas {
+    width: 100%;
+    height: 100%;
+}
+
+%medidasimagenes {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+
 /* MIXIN */
 
 @mixin iconos ($height, $width ){

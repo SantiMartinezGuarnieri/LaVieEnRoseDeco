@@ -1,9 +1,69 @@
+.image-header-container{
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-header-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    height: 10vh;
+
+   
+    
+}
+.titulos{
+    font-family: 'Water Brush', cursive;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-items: flex-start;
+    margin-left: 300px;
+    color: rosybrown;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.img-fluid{
+    margin-left: 0px;
+    height: 12vh;
+    width: 15vh;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 50px;
+}
+.navbar {
+    opacity: none;
+    color: antiquewhite;
+}
+
+
+
+header{
+    background-color: rosybrown;
+    opacity: 90%;
+
+}
+.estilolink{
+    text-decoration: none;
+    color: gray;
+    font-size: xx-large;
+    padding: 80px;
+    
+
+    
+    
+}
 .decoratuvida{
     color: $colortitulos;
     @extend %margenes;
     font-family: 'Lobster', cursive;
     font-size: map-get($tamanio-tipografia, titulos);
 }
+
 .gridcarrouselytexto{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -20,4 +80,197 @@
     color: $colortitulos;
     font-family: 'Prompt', sans-serif;
     font-size: map-get($tamanio-tipografia, parrafos)
+}
+.image-header-container{
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-header-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    height: 10vh;
+
+   
+    
+}
+.titulos{
+    font-family: 'Water Brush', cursive;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-items: flex-start;
+    margin-left: 300px;
+    color: rosybrown;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.img-fluid{
+    margin-left: 0px;
+    height: 12vh;
+    width: 15vh;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 50px;
+}
+.navbar {
+    opacity: none;
+    color: antiquewhite;
+}
+
+
+
+header{
+    background-color: rosybrown;
+    opacity: 90%;
+
+}
+.estilolink{
+    text-decoration: none;
+    color: gray;
+    font-size: xx-large;
+    padding: 80px;
+    
+
+    
+    
+}
+.estilolink:hover{
+    color: rosybrown;
+    transform: scale(2);
+   
+}
+.titulonavbar{
+    color: rosybrown;
+    font-size: x-large;
+    margin-right: 40px;
+    text-decoration: none;
+   
+}
+.titulonavbar:hover{
+    color: rosybrown;
+    transform: none
+}
+
+.container-fluid{
+background-color: bisque;
+}
+.nav-link{
+    font-size: 16px;
+}
+.carousel-inner{
+    height: 40rem;
+}
+body{
+    background-image: url(../imagenes/imagencemento.jpg);
+    
+}
+.gridcarrouselytexto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.carrousel{
+    
+    grid-area: 1/2;
+}
+.parrafoasesoramiento{
+    margin-top: 0px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.titulocontacto{
+    padding-top: 40px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoratuvida{
+    color: antiquewhite;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 70px
+}
+.subtituloasesoramiento{
+    color: antiquewhite;;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+ .fs-2{
+     color: antiquewhite;;
+     font-family: 'Prompt', sans-serif;
+     font-size: x-large;
+ }
+footer{
+    background-image: url(../imagenes/93728.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 40px;
+}
+.pagosfooter{
+    display: grid;
+    grid-area: x 2/3 y 1/2;
+    color: $colorletraslink;
+}
+.enviamos{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.paga{
+    font-size: medium;
+    color: $colorletraslink;
+}
+.textofooter{
+    color:$colorletraslink ;
+}
+
+
+.logoinsta{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+    }
+    .logoyoutube{
+        display: grid;
+        grid-area: x 4/5 y 1/2;
+        width: 100px;
+        height: 100px;
+    }
+.iconos{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.logoface{
+    display: grid;
+    grid-area: x 4/5;
+    width: 100px;
+    height: 100px;
+  
+}
+.iconofacebook{
+    display: grid;
+    grid-area: x 4/5 y 1/2;
+    width: 100px;
+    height: 100px;
+    
+
 }
